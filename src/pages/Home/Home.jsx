@@ -5,6 +5,7 @@ import Companies from './sections/Companies'
 import Pricing from './sections/Pricing'
 import Footer from '../../components/Footer'
 import Contact from './sections/Contact'
+import FAQ from './sections/FAQ'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <HeroSection/>
       <Companies/>
       <Pricing/>
+      <FAQ/>
       <Contact/>
       <Footer/>
     </div>
