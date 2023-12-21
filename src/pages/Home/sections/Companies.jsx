@@ -7,6 +7,7 @@ import amazon from "../../../assests/amazon.png";
 import adobe from "../../../assests/adobe.png";
 
 export default function Companies() {
+  //list of all companies
   const companies = [zaiper, spotify, zoom, slack, amazon, adobe];
 
   return (
@@ -17,9 +18,9 @@ export default function Companies() {
         </h1>
 
         <div className="flex px-2  lg:w-full flex-wrap items-center justify-center gap-3">
+            {/* mapping all companies */}
           {companies.map((company, index) => (
-              <img src={company} alt="" className="w-[150px]" key={index}/>
-            
+            <img src={company} alt="" className="w-[150px]" key={index} />
           ))}
         </div>
       </div>
